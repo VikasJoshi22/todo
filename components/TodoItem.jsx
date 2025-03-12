@@ -14,7 +14,7 @@ function TodoItem({ Todo }) {
         >
             <input
                 type="checkbox"
-                className={`cursor-pointer h-6 w-6`}
+                className={`cursor-pointer h-4 w-4`}
                 onChange={(e)=>{
                     if(e.target.checked==true){
                         setFadeClass('motion-opacity-out-0');
